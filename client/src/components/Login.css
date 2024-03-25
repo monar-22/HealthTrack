@@ -1,0 +1,95 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.login-form{
+  width:35%;
+  background-color: aliceblue;
+  padding:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  border-radius: 30px;
+  -webkit-box-shadow: -5px 21px 65px -16px rgba(0,0,0,0.75);
+  -moz-box-shadow: -5px 21px 65px -16px rgba(0,0,0,0.75);
+  box-shadow: -5px 21px 65px -16px rgba(0,0,0,0.75);
+}
+
+.login-name{
+  padding:10px;
+  font-size: 40px;
+}
+
+p{
+  font-size: 19px;
+  margin:10px;
+  font-weight: 600;
+}
+
+input{
+  font-size: 16px;
+  margin:0px 10px 10px 10px;
+  border-radius: 20px;
+  padding: 5px 5px 5px 15px;
+  width:90%;
+  border:2px solid black;
+  color:black;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn-login{
+  padding:5px;
+  margin:10px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: black;
+  color:white;
+  font-size: 20px;
+  text-align: center;
+  /* width: fit-content; */
+  cursor: pointer;
+}
+
+.btn1{
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background: transparent;
+  font-size: 15px;
+  color:blue;
+  text-decoration: underline;
+}
+.btn:hover{
+  background-color: grey;
+  color:white;
+}
+.signupdiv{
+  margin-left: 15px;
+}
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin:10px;
+}
+.logo img{
+  width:200px;
+  height:200px;
+  position: absolute;
+  display: block;
+  z-index: 1000;
+  margin-top: -50px;
+}
